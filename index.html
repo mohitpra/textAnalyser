@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="./icon/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Analyse your Text</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="text-entry">
+          <h2>Analyse Text</h2>
+          <textarea name="mytext" id="text" cols="30" rows="10" placeholder="Type or paste your text here..."> </textarea>
+          <button type="button" id="btn" class="button">Get Result</button>
+        </div>
+      </div>
+      <div class="content-result">
+        <h2>Result</h2>
+        <ul class="list">
+          <li>
+            <p>characters</p>
+            <span id="char"></span>
+          </li>
+          <li>
+            <p>words</p>
+            <span id="word"></span>
+          </li>
+          <li>
+            <p>sentences</p>
+            <span id="sentence"></span>
+          </li>
+          <li>
+            <p>spaces</p>
+            <span id="space"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
